@@ -1,0 +1,31 @@
+[{
+    "companyname":"IFF via Contus",
+    "year":"2021 - Working now",
+    "about":"Working as a full stack developer, Working on angular, react and node js development",
+    "designation":"Senior Application Developer"
+},
+{
+    "companyname":"Matrimony.com",
+    "year":"2018-2021",
+    "about":"Worked on LAMP to MEAN stack migration and API development and integration of API in angular environment",
+    "designation":"Senior Software Engineer"
+},
+{
+    "companyname":"Imaginet Ventures Pvt Ltd",
+    "year":"2017-2018",
+    "about":"Directly worked with domestic and international clients, developed web application and api",
+    "designation":"Software Engineer"
+},
+{
+    "companyname":"Asterfone Technologies",
+    "year":"2015-2016",
+    "about":"Worked as a API developer , Developed API for call centre products",
+    "designation":"Junior Software Engineer"
+},
+{
+    "companyname":"Dell International Private Limited",
+    "year":"2014-2015",
+    "about":"Worked as payment processing associate",
+    "designation":"Associate"
+}
+]
