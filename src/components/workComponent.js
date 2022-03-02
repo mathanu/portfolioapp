@@ -4,12 +4,13 @@ import { Card,Title, Paragraph } from 'react-native-paper';
 import data from '../mockdata/experience.json';
 class WorkComponent extends Component {
   render() {
+    const cardColor = ["#B81D1B", "#95AFB5", "#EB6773", "#F197C1", "#DB8E96"]
     return (
       <SafeAreaView style={styles.container}>
         <ScrollView>
            <View style={styles.container}>
   { data.map((item, i) => (
-      <Card key={i} style={styles.cardStyle}>
+      <Card key={i} style={styles.cardStyle} style={{backgroundColor:cardColor[i],marginTop: '2%', marginLeft: '2%', marginRight: '2%', marginBottom: '2%'}}>
         <Card.Title title={item.companyname} subtitle={item.year}/>
         <Card.Content>
          <Paragraph>{item.designation} </Paragraph>
